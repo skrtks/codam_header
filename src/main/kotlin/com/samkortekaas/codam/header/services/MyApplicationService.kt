@@ -1,6 +1,6 @@
-package com.github.skrtks.codamheader.services
+package com.samkortekaas.codam.header.services
 
-import com.github.skrtks.codamheader.MyBundle
+import com.samkortekaas.codam.header.MyBundle
 
 class MyApplicationService {
 

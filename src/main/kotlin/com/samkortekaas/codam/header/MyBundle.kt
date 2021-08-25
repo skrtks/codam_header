@@ -1,4 +1,4 @@
-package com.github.skrtks.codamheader
+package com.samkortekaas.codam.header
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

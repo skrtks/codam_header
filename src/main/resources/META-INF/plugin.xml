@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.skrtks.codamheader</id>
-    <name>codam_header</name>
+    <id>com.samkortekaas.codam.header</id>
+    <name>Codam Header</name>
     <vendor>skrtks</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -8,12 +8,20 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.skrtks.codamheader.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.skrtks.codamheader.services.MyProjectService"/>
+        <applicationService serviceImplementation="com.samkortekaas.codam.header.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.samkortekaas.codam.header.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.skrtks.codamheader.listeners.MyProjectManagerListener"
+        <listener class="com.samkortekaas.codam.header.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <actions>
+        <action id="CodamHeader.com.samkortekaas.codam.header.Generate" class="com.samkortekaas.codam.header.Generate" text="Add Codam Header"
+                description="Add Codam header">
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl H"/>
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
 </idea-plugin>

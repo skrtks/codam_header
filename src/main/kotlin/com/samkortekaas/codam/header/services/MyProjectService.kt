@@ -1,7 +1,7 @@
-package com.github.skrtks.codamheader.services
+package com.samkortekaas.codam.header.services
 
-import com.github.skrtks.codamheader.MyBundle
 import com.intellij.openapi.project.Project
+import com.samkortekaas.codam.header.MyBundle
 
 class MyProjectService(project: Project) {
 
