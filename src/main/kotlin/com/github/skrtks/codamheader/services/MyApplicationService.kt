@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.skrtks.codamheader.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.skrtks.codamheader.MyBundle
 
 class MyApplicationService {
 
