@@ -2,6 +2,6 @@
 
 # Codam Header Changelog
 
-## 2.0
-### Improved
+## [2.0]
+### Changed
 - Rewritten to Kotlin
