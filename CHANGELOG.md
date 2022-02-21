@@ -3,6 +3,7 @@
 # Codam Header Changelog
 
 ## [Unreleased]
+## [2.0.2]
 ### Added
 - Support for CLion 2022.1
 
