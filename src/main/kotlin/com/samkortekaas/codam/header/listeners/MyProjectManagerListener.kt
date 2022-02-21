@@ -1,9 +1,9 @@
 package com.samkortekaas.codam.header.listeners
 
-import com.samkortekaas.codam.header.services.MyProjectService
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener
+import com.samkortekaas.codam.header.services.MyProjectService
 
 internal class MyProjectManagerListener : ProjectManagerListener {
 

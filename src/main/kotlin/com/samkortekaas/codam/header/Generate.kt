@@ -5,11 +5,10 @@ import com.intellij.openapi.actionSystem.AnActionEvent
 import com.intellij.openapi.actionSystem.CommonDataKeys
 import com.intellij.openapi.actionSystem.LangDataKeys
 import com.intellij.openapi.command.WriteCommandAction
-import com.intellij.openapi.util.NlsSafe
 import java.lang.StringBuilder
 import java.text.DateFormat
 import java.text.SimpleDateFormat
-import java.util.*
+import java.util.Date
 
 class Generate : AnAction() {
     override fun actionPerformed(AnActionEvent: AnActionEvent) {
